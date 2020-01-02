@@ -1,0 +1,12 @@
+<h3>Top Seller</h3>
+<div id="search-component">
+  <input matInput #searchBox id="search-box">
+  <mat-icon id="search-icon" (click)="search(searchBox.value)">search</mat-icon>
+</div>
+
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile *ngFor="let beverage of beverages" (click)="gotoDetail(beverage)" class="dashboard-drink">
+    <div>  <a class="pull-right"><img id="bev-image" title="beverage-image" class="rounded-circle" src="../../assets/logo2.jpg"></a> </div>
+    <div>{{beverage.name}}</div>
+  </mat-grid-tile>
+</mat-grid-list>

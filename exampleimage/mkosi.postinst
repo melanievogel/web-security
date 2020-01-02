@@ -1,0 +1,10 @@
+#!/bin/sh
+/etc/node-v10.15.3-linux-x64/bin/npm install --prefix ./var/www/express-server sqlite3
+systemctl enable startup-ip
+
+systemctl enable express-server
+systemctl enable admin-client
+
+systemctl enable systemd-networkd
+
+

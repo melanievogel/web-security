@@ -1,0 +1,19 @@
+.login-card, .register-card{
+    width: 50%;
+    margin-top: 9%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#register-text{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+}
+
+.mat-card-header{
+    margin: 0px 0px;
+}  
+
+

@@ -1,0 +1,22 @@
+<mat-toolbar class="bugreport-title">{{title}} 
+<mat-toolbar-row><span class="subtitle-toolbar">Please fill out this form if you notices any bugs. We will fix it as soon as possible.</span></mat-toolbar-row>
+</mat-toolbar>
+<mat-card>
+<div class="bugreport-container">
+    <mat-form-field>
+      <input matInput placeholder="Short description" [(ngModel)]="shortDescription">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <textarea matInput placeholder="Detailed description" >This is a detailed description.</textarea>
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-select placeholder="Severity Level" >
+        <mat-option value="option">Normal</mat-option>
+        <mat-option value="option">High</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <button class="submitButton" mat-raised-button color="primary" (click)="submit()">Submit</button>
+</mat-card>

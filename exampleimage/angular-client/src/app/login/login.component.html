@@ -1,0 +1,71 @@
+<mat-card class="login-card">
+    <mat-card-title>Login</mat-card-title>
+  <mat-card-content>
+    <form>
+      <table cellspacing="0">
+        <tr>
+          <td>
+            <mat-form-field>
+            <input matInput placeholder="Username" [(ngModel)]="username" name="username" required>
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+        <td><mat-form-field>
+          <input matInput placeholder="Password" [(ngModel)]="password"type="password" name="password" required>
+        </mat-form-field></td>
+      </tr></table>
+    </form>
+  </mat-card-content>
+  <mat-card-actions>
+    <button id="login-button" mat-raised-button (click)="login()" color="primary">Login</button>
+  </mat-card-actions>
+</mat-card>
+
+<p id="register-text">If you do not have an account already, register here:</p>
+
+<mat-card class="register-card">
+  <mat-card-title>Register</mat-card-title>
+<mat-card-content>
+  <form>
+    <table cellspacing="0">
+      <tr>
+        <td>
+          <mat-form-field>
+          <input matInput placeholder="Firstname" [(ngModel)]="firstname" name="firstname" required>
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field>
+          <input matInput placeholder="Surname" [(ngModel)]="surname" name="surname" required>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-form-field>
+          <input matInput placeholder="E-Mail address" [(ngModel)]="email" name="email" required>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <mat-form-field>
+          <input matInput placeholder="Username" [(ngModel)]="username_r" name="username_r" required>
+          </mat-form-field>
+        </td>
+      </tr>
+      <tr>
+      <td><mat-form-field>
+        <input matInput placeholder="Password" [(ngModel)]="password_r"type="password" name="password_r" required>
+      </mat-form-field></td>
+      <!-- <td><mat-form-field>
+        <input matInput placeholder="Verify Password" [(ngModel)]="password2"type="password2" name="password2" required>
+      </mat-form-field></td> -->
+    </tr></table>
+  </form>
+</mat-card-content>
+<mat-card-actions>
+  <button id="register-button" mat-raised-button (click)="register()" color="primary">Register</button>
+</mat-card-actions>
+</mat-card>

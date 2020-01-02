@@ -1,0 +1,22 @@
+  .profile-title{
+      padding: 16px;
+  }
+  .subtitle-toolbar {
+      font-size: 12px;
+  }
+
+  .mat-toolbar-row {
+      padding: 0px;
+  }
+#profileimage {
+    width: 240px;
+    height: 240px;
+}      
+
+#linespace {
+    border-top: 0px solid rgba(0,0,0,.1);
+}
+
+.col-sm-10{
+    max-width: 77.333333%;
+}

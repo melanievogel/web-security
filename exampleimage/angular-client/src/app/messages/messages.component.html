@@ -1,0 +1,49 @@
+<mat-toolbar class="contact-title">{{title}}   <span class="nav-spacer"></span><a id="bugreportButton" routerLink="/bug-report" mat-button>Report a bug</a>
+</mat-toolbar>
+
+<div class="content-div">
+
+  <mat-card>
+
+    <mat-card-title>Give us Feedback! </mat-card-title>
+    <p id="info">We love transparency that is why your anonymous comment will be visible to all users. Unfortunately you can only submit five messages at most in a row, then the spam filter deletes them. </p>
+    <mat-card-content>
+      <form>
+        <mat-form-field id="message-form">
+          <textarea matInput #newMessage placeholder="Message"></textarea>
+        </mat-form-field>
+        <button class="submitButton" mat-raised-button color="primary" (click)="submit()">Submit</button>
+      </form>
+    </mat-card-content>
+
+    </mat-card>
+
+  </div>
+
+  <div>
+    <mat-card>
+    <mat-card-content>
+
+      <mat-list>
+        <mat-list-item *ngFor="let item of messages" > 
+          <p id="anotheruser">Anonymous User wrote: </p>
+          <ul>
+          <p id="displaymessage" [innerHTML]="item"></p>
+         </ul>
+
+        <mat-divider></mat-divider>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+
+        <mat-paginator [length]="100"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]">
+        </mat-paginator>
+
+      </mat-list>
+
+    </mat-card-content>
+    
+    <mat-card-footer>	</mat-card-footer>
+  </mat-card>
+</div>

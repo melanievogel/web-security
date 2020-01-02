@@ -1,0 +1,17 @@
+[Distribution]
+Distribution=debian
+Release=buster
+
+[Output]
+Format=raw_gpt
+Bootable=yes
+
+[Packages]
+Packages=nginx python3 firefox-esr php-fpm nano iproute2 sqlite3
+WithNetwork=yes
+
+[Partitions]
+RootSize=2G
+
+[Validation]
+Password=foobar

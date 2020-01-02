@@ -1,0 +1,18 @@
+.bugreport-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bugreport-container > * {
+    width: 100%;
+  }
+  .bugreport-title{
+      padding: 16px;
+  }
+  .subtitle-toolbar {
+      font-size: 12px;
+  }
+
+  .mat-toolbar-row {
+      padding: 0px;
+  }

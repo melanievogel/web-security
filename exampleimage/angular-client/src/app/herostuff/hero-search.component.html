@@ -1,0 +1,17 @@
+<div id="search-component">
+  <input #searchBox id="search-box" />
+  <mat-icon id="search-icon" (click)="search(searchBox.value)">search</mat-icon>
+
+ <!--
+
+
+
+ --> 
+ 
+ <div>
+    <div *ngFor="let hero of heroes | async"
+         (click)="gotoDetail(hero)" class="search-result" >
+      <div *ngIf="exists">{{hero.name}}</div>
+    </div>
+  </div>
+</div>
