@@ -2,7 +2,7 @@
   "name": "express-server",
   "version": "1.0.0",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "selenium-server": "^3.141.59",
     "selenium-webdriver": "^4.0.0-alpha.1"
   }
