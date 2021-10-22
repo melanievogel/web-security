@@ -10,3 +10,5 @@ Please run this demo webshop only in an isolated sandbox.
 ### The Express Server
 
 * sqlite 3 only works with node version 14.x; current version is 14.18.1
+* pre-gyp was deprecated, therefore: npm i @mapbox/node-pre-gyp
+* 
