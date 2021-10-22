@@ -1,14 +1,20 @@
 # Insecure Mate Web Shop
 
+The goal of this application is to build awareness of cyber security attacks specific to web applications.
+Those attacks include:
+* SQL Injection
+* Session Hijacking
+* XSS
+
 ## Getting started
 
 Please run this demo webshop only in an isolated sandbox.
 
 ### The Angular Client
 
-Navigate to `exampleimage/angular-client` and run: 
+* Navigate to `exampleimage/angular-client` and run: 
 
-`ng serve`
+  `ng serve`
 
 * Conflicts with webpack and NodeJs Version 17, therefore 16.0.0 works
 
