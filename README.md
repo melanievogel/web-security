@@ -11,4 +11,4 @@ Please run this demo webshop only in an isolated sandbox.
 
 * sqlite 3 only works with node version 14.x; current version is 14.18.1
 * pre-gyp was deprecated, therefore: npm i @mapbox/node-pre-gyp
-* 
+* sqlite3 needs python reference:  `npm config set python /usr/bin/python2`
