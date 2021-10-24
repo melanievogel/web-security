@@ -24,6 +24,10 @@ Navigate to `exampleimage/express-server` and run:
 
 `node server.js`
 
+Test with:
+
+`curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000`
+
 * sqlite 3 only works with node version 14.x; current version is 14.18.1
 * pre-gyp was deprecated, therefore: npm i @mapbox/node-pre-gyp
 * sqlite3 needs python reference:  `npm config set python /usr/bin/python2`
