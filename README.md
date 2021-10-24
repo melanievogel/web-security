@@ -18,6 +18,10 @@ Please run this demo webshop only in an isolated sandbox.
 
 * Conflicts with webpack and NodeJs Version 17, therefore 16.0.0 works
 
+* Run as Docker Image:
+  
+  `docker run -d --publish 4200:80 angular-client`
+
 ### The Express Server
 
 Navigate to `exampleimage/express-server` and run: 
@@ -27,3 +31,8 @@ Navigate to `exampleimage/express-server` and run:
 * sqlite 3 only works with node version 14.x; current version is 14.18.1
 * pre-gyp was deprecated, therefore: npm i @mapbox/node-pre-gyp
 * sqlite3 needs python reference:  `npm config set python /usr/bin/python2`
+
+* Run as Docker Image:
+  
+  `docker run -d --publish 3000:3000 test-with-3000-docker-expose`
+
