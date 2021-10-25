@@ -10,6 +10,18 @@ Those attacks include:
 
 Please run this demo webshop only in an isolated sandbox.
 
+### Run via Docker
+
+Navigate to `/exampleimage` and run:
+
+`docker-compose up`
+
+You can now visit:
+
+`http:\\localhost:4200`
+
+### Run locally
+
 ### The Angular Client
 
 * Navigate to `exampleimage/angular-client` and run: 
