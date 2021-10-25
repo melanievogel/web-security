@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+    expressServer:
+        build:
+            context: ./express-server/
+            dockerfile: Dockerfile
+        ports: 
+            - "3000:3000"
+        image: express-server/latest
+
+    angularApp:
+        build:
+            context: ./angular-client/
+            dockerfile: Dockerfile
+        ports: 
+            - "4200:80"
+        image: angular-client/latest
+    
