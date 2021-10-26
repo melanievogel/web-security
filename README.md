@@ -4,11 +4,18 @@ The goal of this application is to build awareness of cyber security attacks spe
 Those attacks include:
 * SQL Injection
 * Session Hijacking
-* XSS
+* Cross-Site-Scripting XSS
+
+All three scenarios are implemented in one big context, strongly related to the existing most insecure web application the **JuiceShop** (https://github.com/bkimminich/juice-shop).
+
+The friendly supplier of Mate and Tschunk - **MateShop** - is the world leader of mate shops. At the moment they think they can do everything with their customers and increase the prices as they want to gain more profit. But not with you! 
+Instead of pushing their money into management salaries they should rather invest some money in their cyber security department, because they have real trouble with their vulnerable supplying website. 
+
+In this scenarios you are going to show **MateShop's** management how carelessly their strategy is and perform some serious attacks to their insecure website.
+
+The respective scenarios are written in the below section < Referenz zu Headline>.
 
 ## Getting started
-
-Please run this demo webshop only in an isolated sandbox.
 
 ### Getting started right away via Docker
 
@@ -62,3 +69,13 @@ and can try to solve the CTF challenge.
 
   `curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000`
 
+## Scenarios
+
+### Message Center
+    Download here
+
+### Session Hijack
+    Download here
+
+### BottleNet
+    Download here
