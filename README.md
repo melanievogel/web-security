@@ -68,14 +68,3 @@ and can try to solve the CTF challenge.
 * Test with:
 
   `curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000`
-
-## Scenarios
-
-### Message Center
-    Download here
-
-### Session Hijack
-    Download here
-
-### BottleNet
-    Download here
