@@ -80,3 +80,17 @@ and can try to solve the CTF challenge.
 * Test with:
 
   `curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000`
+  
+#### Admin Client
+
+* Navigate to `exampleimage/admin-client` and run: 
+
+  `npm i`
+
+* geckodriver required: 
+* wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
+* tar -xvzf geckodriver-v0.30.0-linux64.tar.gz
+* chmod +x geckodriver
+* sudo mv geckodriver /usr/local/bin/
+
+`node admin-client.js`
