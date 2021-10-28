@@ -11,7 +11,7 @@ The goal of this project is to build awareness of cyber security attacks specifi
 
 To guide them, an instructors guide is available to give useful hints to them [here](/guides.pdf).
 
-The expected approach i.e., one possible solution is available [here](/expected.pdf).
+The expected approach i.e., one possible solution is available [here](/solutions.pdf).
 
 Typical web app attacks include:
 * SQL Injection
