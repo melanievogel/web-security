@@ -56,6 +56,7 @@ and can try to solve the CTF challenge.
 * Run as Docker Image:
   
   `docker build --tag angular-client .`
+  
   `docker run -d --publish 4200:80 angular-client`
 
 #### The Express Server
@@ -75,6 +76,7 @@ and can try to solve the CTF challenge.
 * Run as Docker Image:
   
   `docker build --tag express-server .`
+  
   `docker run -d --publish 3000:3000 express-server`
 
 * Test with:
@@ -83,14 +85,17 @@ and can try to solve the CTF challenge.
   
 #### Admin Client
 
-* Navigate to `exampleimage/admin-client` and run: 
+Navigate to `exampleimage/admin-client` and run: 
 
   `npm i`
+  
+Install GeckoDriver:  
 
-* geckodriver required: 
 * wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
 * tar -xvzf geckodriver-v0.30.0-linux64.tar.gz
 * chmod +x geckodriver
 * sudo mv geckodriver /usr/local/bin/
+
+Run:
 
 `node admin-client.js`
