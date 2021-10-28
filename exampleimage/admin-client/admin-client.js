@@ -8,7 +8,7 @@ let options = new firefox.Options()
     .headless();
 
 var endpoint = "http://localhost"
-var port = "8074"
+var port = "4200"
 var browser = new webdriver.Builder(webdriver.Capabilities.firefox())
     .setFirefoxOptions(options)
     .forBrowser('firefox')
