@@ -55,7 +55,7 @@ and can try to solve the CTF challenge.
 
 * Run as Docker Image:
   
-  `docker build --tag angular-client`
+  `docker build --tag angular-client .`
   `docker run -d --publish 4200:80 angular-client`
 
 #### The Express Server
@@ -74,7 +74,7 @@ and can try to solve the CTF challenge.
 
 * Run as Docker Image:
   
-  `docker build --tag express-server`
+  `docker build --tag express-server .`
   `docker run -d --publish 3000:3000 express-server`
 
 * Test with:
