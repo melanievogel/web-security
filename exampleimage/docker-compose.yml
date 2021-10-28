@@ -16,3 +16,9 @@ services:
             - "4200:80"
         image: angular-client/latest
     
+    adminClient:
+        build:
+            context: ./admin-client/
+            dockerfile: Dockerfile
+        image: admin/latest
+        
