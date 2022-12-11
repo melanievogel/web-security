@@ -4,7 +4,7 @@
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.6",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "js-md5": "^0.7.3",
     "python": "0.0.4",
     "python2": "0.0.1",
